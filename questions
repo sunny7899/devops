@@ -58,4 +58,38 @@ Kubernetes Service
 Service Fabric
 VM scale sets
 
+Q."Managed Apache Cassandra instance in the cloud". What is this?
+Apache Cassandra MI
+CosmosDB
+Maria DB
+Database for MYSQL
 
+Q.Process Events with serverless code. What is this?
+Azure Functions
+Azure app service
+Service Fabric
+Static web apps
+
+Q. Add smart API capabilities to enable contextual interactions.
+Azure Machine Learning
+Azure Cognitive Services
+Azure Bot services
+Azure Cognitive search
+
+Q. "Simplify data protection and protect against ransomware". What is this?
+Azure Backup
+ Azure Arc
+Azure Lighthouse
+Azure Automation
+
+Q."Extend cloud intelligence and analytics to edge devices". What is this?
+Digital Twin
+IOT Central
+IOT Edge
+IOT Hub
+
+Q.Extend Azure management and services anywhere. What is this?
+Azure Arc
+Azure stack
+Azure active directory
+Azure stack hub
