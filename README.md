@@ -370,3 +370,86 @@ The upload speed is how fast you send data from you to others. Uploading is nece
 The upload rate is always lower than the download rate.
 
 
+lambda expression
+
+
+ 
+
+Ubuntu is a free desktop operating system. It's based on Linux, a massive project that enables millions of people around the world to run machines powered by free and open software on all kinds of devices. Linux comes in many shapes and sizes, with Ubuntu being the most popular iteration on desktops and laptops.
+
+sudo  Here we use sudo with most of the commands to install any dependency.
+
+sudo (SuperUser DO) Linux command allows you to run programs or other commands with administrative privileges, just like “Run as administrator” in Windows.
+
+Basic Commands-
+command to display the Ubuntu version.
+
+>lsb_release -a
+
+Output-
+Distributor ID:	Ubuntu
+Description:	Ubuntu 20.04.1 LTS
+Release:	20.04
+Codename:	focal
+
+To setup chrome in ubuntu OS-  Run below command
+>wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+
+Download the package (64 bit):
+
+Install the package, forcing install of dependencies:
+
+>sudo dpkg -i --force-depends google-chrome-stable_current_amd64.deb
+
+In case any dependencies didn't install (you would have a warning or failure message for this), you can force them via:
+
+>sudo apt-get install -f
+
+apt-get is one of the most important Ubuntu commands every beginner must know. It is used to install, update, upgrade and remove any package. apt-get basically works on a database of available packages
+
+history command displays all of your previous commands up to the history limit.
+
+To update the package index:
+
+>sudo apt update
+
+To install Git:
+
+>sudo apt install git
+>git --version
+
+>vmware-hgfsclient
+
+To install node-
+>sudo apt install nodejs
+or
+>sudo apt-get install -y nodejs
+
+To install npm-
+>sudo apt-get install npm
+
+To check npm version-
+>npm -v
+
+
+>sudo npm install npm@latest -g
+
+
+To install Angular-
+
+>sudo npm install -g @angular/cli]
+
+
+To create new project in Angular-
+
+>ng new my-app
+
+learn Bash (Bourne Again Shell) programming/ scripting.
+https://devhints.io/bash
+
+
+
+linux i3 window manager
+vim tool
+
+TFS for source code management, ANT scripts for build management, AntHillPro for CI
