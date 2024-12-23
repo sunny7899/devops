@@ -31,11 +31,7 @@ The challenge faced by large DevOps Teams that maintain large huge IT infrastruc
 
 1-Infrastructure automation-
 
-AWS  https://www.javatpoint.com/aws-security-group   
 
-https://aws.amazon.com/getting-started/hands-on/
-
-awseducate.com/student/s/
 
 2-Configuration management-
 
@@ -72,8 +68,6 @@ Automation-
 CFEngine,
 
 Packer,
-
-AWS cloud formation,
 
 PowerShell,
 
@@ -136,7 +130,7 @@ TFS for source code management, ANT scripts for build management, AntHillPro for
 Cloud: Snowflake
 
 https://www.edx.org/learn/devops
-https://explore.skillbuilder.aws/learn
+
 
 New Relic | Monitor, Debug and Improve Your Entire Stack
 

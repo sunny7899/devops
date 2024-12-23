@@ -12,4 +12,3 @@ Pulumi - Pulumi's open source infrastructure as code SDK enables you to create, 
 Universal Infrastructure as Code
 Pulumi vs. Terraform
 
-https://www.freecodecamp.org/news/learn-terraform-and-aws-by-building-a-dev-environment/
