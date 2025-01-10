@@ -309,3 +309,244 @@ Aurora Aurora MySQL (5x faster) and PSQL (3x faster) database fully managed Auro
 Neptune - Managed Graph Database
 Redshift - Columnar database, petabyte warehouse 1000 TB = 1 PB!!!!!
 ElastiCache - Redis or, Memcached database
+
+ aws certification 	cloud practioner	devops	solution archtect					
+ https://www.aws.training/Certification	
+ migrate project to AWS
+
+
+ Understand AWS database and storage offerings, including Amazon Relational Database Service (Amazon RDS), Amazon DynamoDB, and Amazon Simple Storage Service (Amazon S3)
+
+
+
+
+
+Navigate the AWS Management Console
+
+
+
+
+
+Distinguish among several AWS compute services, including Amazon Elastic Compute Cloud (Amazon EC2), AWS Lambda, Amazon Elastic Container Service (Amazon ECS), and Amazon Elastic Kubernetes Service (Amazon EKS)
+
+
+
+
+
+Articulate key concepts of AWS security measures and AWS Identity and Access Management (IAM)
+ solution high risk issues (HRIs) and medium risk issues (MRIs)
+
+ Understand the AWS infrastructures as it relates to system operations such as the global infrastructure, core services and account security
+
+
+
+
+
+Use the AWS Command Line Interface, and understand additional administration and development tools
+
+
+
+
+
+Manage, secure, and scale compute instances on AWS
+
+
+
+
+
+Understand container services and services available for serverless computing
+
+Build virtual private networks with Amazon VPC
+
+
+
+
+
+Configure and manage storage options utilizing the storage services offered with AWS
+
+
+
+
+
+Monitor the health of your infrastructure with services such as Amazon CloudWatch, AWS CloudTrail and AWS Config
+
+
+
+
+
+Manage resource consumption in an AWS account using tags, Amazon CloudWatch, and AWS Trusted Advisor
+
+
+
+
+
+Create and configure automated and repeatable deployments with tools such as AMIs and AWS CloudFormation
+
+Use DevOps best practices to develop, deliver, and maintain applications and services at high velocity on AWS
+
+
+
+
+
+Understand the advantages, roles and responsibilities of small autonomous DevOps teams
+
+
+
+
+
+Design and implement an infrastructure on AWS that supports DevOps development projects
+
+
+
+
+
+Leverage AWS Cloud9 to write, run and debug code
+
+Deploy environments with AWS CloudFormation
+
+
+
+
+
+Host secure, highly scalable, and private Git repositories with AWS CodeCommit
+
+
+
+
+
+Integrate Git repositories into CI/CD pipelines
+
+
+
+
+
+Automate build, test, and packaging code with AWS CodeBuild
+
+
+
+Securely store and leverage Docker images and integrate them into your CI/CD pipelines
+
+
+
+
+
+Build CI/CD pipelines to deploy applications on Amazon EC2, serverless applications, and container-based applications
+
+
+
+
+
+Implement common deployment strategies such as “all at once,” “rolling,” and “blue/green”
+
+
+
+
+
+Integrate testing and security into CI/CD pipelines
+
+
+
+
+
+Monitor applications and environments using AWS tools and technologies
+
+
+Discuss best practices for creating a custom landing zone
+
+
+
+
+
+Determine the best multi-account structure, governance policies, and connectivity plan for a landing zone
+
+
+
+
+
+Conduct a detailed portfolio discovery workstream
+
+
+
+
+
+Plan and design application migration strategy
+
+
+
+
+
+Choose which portfolio discovery tools are best to use based on scenario
+
+
+
+
+
+Setup a migration factory
+
+
+Evaluate server migration tools for compatibility with your environment
+
+
+
+
+
+Select and use data migration tools
+
+
+
+
+
+Evaluate AWS Managed Services and AWS Marketplace offerings
+
+
+
+
+
+Identify post-migration opportunities for modernization and optimization
+
+
+
+
+
+Understand four functions of operations and their domains
+
+
+Build an Amazon EKS cluster by selecting the correct compute resources to support worker nodes
+
+
+
+
+
+Secure your environment with AWS Identity and Access Management (IAM) authentication by creating an Amazon EKS service role for your cluster
+
+
+
+
+
+Publish container images to ECR
+
+
+
+
+
+Automate and deploy applications
+
+
+
+
+
+Collect monitoring data through metrics, logs, and tracing with AWS X-Ray
+
+
+
+
+
+Configure the AWS networking services to support the cluster
+
+
+
+
+
+Upgrade your Kubernetes, Amazon EKS, and third party tool
+
+https://aws.amazon.com/products

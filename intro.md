@@ -173,6 +173,10 @@ volume
 
 Docker, Jenkins, Chef, Puppet, Kubernetes, IAC, Ansible
 
+  A company hosts everything in-house in an on-premise environment, while in a cloud environment, a third-party provider hosts all that for you. This allows companies to pay on an as-needed basis and effectively scale up or down depending on overall usage, user requirements, and the growth of the company.			
+An on-premises data center is a group of servers you privately own and control.			
+On-premises need a lot of space, power, and maintenance to store, while on the other hand, cloud solutions are offered by the provider.			
+ On-premise software is installed on the computers and servers of the organization locally.	
 
 
 # DevOps All The Things 
