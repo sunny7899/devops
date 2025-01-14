@@ -50,17 +50,7 @@ common commands - caption
 Creating and running an Angular application in a Docker container - DEV Community
 https://dev.to/rodrigokamada/creating-and-running-an-angular-application-in-a-docker-container-40mk
 
-FROM node:alpine // Specify base image
-WORKDIR /app  // Set the working directory to app' in the container. All following commands will be issued relative to this dir
-COPY package.json/  -Copy over only the package.json file
-RUN npm install  Install all dependencies
-COPY //  Copy over all of our remaining source code
-CMD ["npm", "start"] // Set the command to run when the container starts up
+Download and install Docker Desktop from 
+https://www.docker.com/products/docker-desktop/
 
-docker build -t stephengrider/posts. Build an image based on the dockerfile in the current directory. Tag it as 'stephengrider/posts
-docker run [image id or image tag]  Create and start a container based on the provided image id or tag
-docker run -it [image id or image tag] [cmd] Create and start container, but also override the default command
-docker ps Print out information about all of the running containers
-docker exec-it [container id] [cmd] Execute the given command in a running container
-docker logs [container id] Print out logs from the given container
-
+Containers- Docker(Docker is a high-end DevOps tool that allows building, shipping, and running distributed applications on multiple systems. It helps assemble the applications quickly and is typically suitable for container management), RKT(Rocket), LXC(Linux Containers)

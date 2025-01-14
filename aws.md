@@ -1,14 +1,16 @@
 AWS  https://www.javatpoint.com/aws-security-group   
 
+aws guide
 https://aws.amazon.com/getting-started/hands-on/
 
 awseducate.com/student/s/
 https://explore.skillbuilder.aws/learn
 
+To interact with AWS services programmatically.
+For example, using AWS SDK for JavaScript (Node.js)
 aws-sdk npm
+
 to configure aws details
-
-
 
 https://www.freecodecamp.org/news/learn-terraform-and-aws-by-building-a-dev-environment/
 
@@ -18,20 +20,16 @@ upload data to AWS S3
 
 AWS cloud formation,
 
-
 In Amazon Web Services(AWS) learn Elastic Beanstalk(used to run the app), EC2, RDS, S3, ElastiCache, cloud front, VPC(virtual private cloud), route 53, SNS(simple notification service), lambda, Amazon API Gateway, code deploy,Nuclio, SQS .
 
 aws.amazon.com/cognito/  With Amazon Cognito, you can add user sign-up and sign-in features and control access to your web and mobile applications.
-
-aws.amazon.com/console/
 
 aws amplify service for deployment
 
 upload the build folder to s3 buckets
 
-https://awscli.amazonaws.com/AWSCLIV2.msi
-
-aws configure
+Upload a file to S3:
+aws s3 cp your-file.txt s3://your-bucket-name/
 
 https://us-west-2.console.aws.amazon.com/activate?region=us-west-2#/apply
 
@@ -44,8 +42,6 @@ https://www.youtube.com/watch?v=3hLmDS179YE
 jayendrapatil.com/aws-certified-cloud-practitioner-exam-learning-path/
 
 AWS is a cloud computing platform provided by Amazon. It provides a server as s service.
-
-AWS lambda – must
 
 it lets you run code without managing servers. you pay according to the time you used this service. it supports the code written in java, python, and node js. it is a serverless computing service provided by AWS.
 
@@ -68,8 +64,6 @@ https://www.awseducate.com/student/s/
 medium.com/@shamnad.p.s/how-to-create-an-s3-bucket-and-aws-access-key-id-and-secret-access-key-for-accessing-it-5653b6e54337
 
 https://awsreskill.com/comstar/Submit
-
-amazon s3 - must
 
 athena
 
@@ -123,7 +117,8 @@ root user
 
 password policy alreadt set
 
-EC2 service -> to create servcer -> launch instance -> cjoose free
+EC2 service -> to create server -> launch instance -> choose free
+aws ec2 run-instances --image-id ami-0c55b159cbfafe1f0 --count 1 --instance-type t2.micro --key-name YourKeyPair
 
 edit iam role
 
@@ -139,12 +134,13 @@ ELPs - elastic load balancer service -> handle traffic change reginions also - o
 always stop/terminate the service that you start
 
 s3 - create bucket / storage here
+aws s3 mb s3://your-bucket-name
 
 cloudfront - used as cdn - used in combination with s3 - add static content here
 
 RDS - database service -> new db - select database type -> postgresql
 
-lambda service - functuon - geberally for loogging
+lambda service - function - generally for logging
 
 aws marketplace service -
 
@@ -218,7 +214,8 @@ CloudWatch Dashboard - create visualizations based on metrics
 CloudSearch - search engine, you have an ecommerce website and you want to add a search bar
 
 Know your Initialisms
-IAM Identity and Access Management S3 Simple Storage Service
+IAM Identity and Access Management 
+S3 Simple Storage Service for object storage.
 SWF Simple Workflow Service
 SNS Simple Notification Service
 SQS Simple Queue Service
@@ -322,12 +319,18 @@ ElastiCache - Redis or, Memcached database
 
 
 Navigate the AWS Management Console
+aws.amazon.com/console/
 
+Install AWS CLI:
+Download and install the AWS CLI from AWS CLI Version 2.
+Configure the AWS CLI with your credentials
+https://awscli.amazonaws.com/AWSCLIV2.msi
+>aws configure
 
-
-
-
-Distinguish among several AWS compute services, including Amazon Elastic Compute Cloud (Amazon EC2), AWS Lambda, Amazon Elastic Container Service (Amazon ECS), and Amazon Elastic Kubernetes Service (Amazon EKS)
+Distinguish among several AWS compute services, including 
+Amazon Elastic Compute Cloud for scalable virtual servers. (Amazon EC2), 
+AWS Lambda- For Serverless compute service - lambda expression, 
+Amazon Elastic Container Service (Amazon ECS), and Amazon Elastic Kubernetes Service (Amazon EKS)
 
 
 

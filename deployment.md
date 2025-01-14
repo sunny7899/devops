@@ -1,9 +1,9 @@
-Here I will talk about how you can deploy your project easily. how you can create a production-ready build. There are lots of platforms that give you the capability to update and deploy your project for free.
+how you can deploy your project easily. how you can create a production-ready build. There are lots of platforms that give you the capability to update and deploy your project for free.
 
 Following are the platforms in which you can deploy your code.
 
-now.sh -
-you can also use this website for backend and front-end deployment. It is also known as Vercel.
+now.sh/Vercel
+you can also use this website for backend and front-end deployment.
 
 Github pages-
 You can easily deploy your git frontend repository using Github pages.
@@ -27,7 +27,7 @@ If you using any framework then you need to update the build command and publish
 
 To add a new repository from the organization in Netlify for deployment-
 
-Open the below link-
+Open the below link:
 
 https://github.com/organizations/organizationname/settings/installations/id
 

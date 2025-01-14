@@ -1,0 +1,9 @@
+// filepath: /C:/demodata/git/devops/site.yml
+---
+- hosts: webservers
+  become: yes
+  tasks:
+    - name: Ensure Apache is installed
+      apt:
+        name: apache2
+        state: present

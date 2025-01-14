@@ -1,4 +1,5 @@
-index-
+# DevOps All The Things 
+
 about
 DevOps lifecycle
 six different categories
@@ -39,8 +40,6 @@ Chef: Tool for achieving speed, scale and consistency.
 
 3-Deployment automation-
 
-Jenkins-  Jenkins is one of the most popular DevOps tools that allow monitoring of the execution of repeated jobs. Apart from this, Jenkins lets us integrate the changes and access the results easily and quickly.
-
 4- System Performance management-
 
 App dynamic: Offers real-time performance monitoring to help the developer debug when an issue occurs.
@@ -77,7 +76,7 @@ Puppet - It allows delivering and releasing technology changes quickly and frequ
 
 Continuous Integration, Continuous Delivery, (CI/CD) Tools-
 
-Jenkins(Jenkins is the tool that is used for continuous integration. Here, we can pull the latest code from the GIT repository, of which we can produce the build and deploy it on the test or the production server), cloud bees, Travis, Drone, Bamboo, GitHub actions, Ionic app flow, Microsoft app centre,  Gitlab CI, AWA code pipeline(physical or cloud machine), Travis CI, Azure DevOps, Circle Ci, Bitbucket pipeline,
+cloud bees, Travis, Drone, Bamboo, GitHub actions, Ionic app flow, Microsoft app centre,  Gitlab CI, AWA code pipeline(physical or cloud machine), Travis CI, Circle Ci, Bitbucket pipeline,
 
 buddy build- continuous integration and delivery software for Git developers that can be used to build, test and deploy
 
@@ -85,11 +84,7 @@ Mobile DevOps automation, and mobile CI/CD
 Mobile continuous integration and delivery — Automate unit test and deployment process
 https://www.bitrise.io/
 
-Containers- Docker(Docker is a high-end DevOps tool that allows building, shipping, and running distributed applications on multiple systems. It helps assemble the applications quickly and is typically suitable for container management), RKT(Rocket), LXC(Linux Containers)
-
 cluster managers- mesosphere, Mesos, Docker swarm, Nomad, 
-
-Kubernetes:   Use a K3s Kubernetes Cluster For Your GitLab Project, Create a k3s cluster and integrate it into your GitLab project 
 
 ext editors-
 
@@ -109,8 +104,6 @@ PuTTY is an SSH and telnet client.
 
 mobaxterm is like putty
 
-IAM- Identity and Access Management
-
 two types of accounts on google - user and service accounts:
 
 It accepts requests from registered applications. request from anonymous apps is rejected.
@@ -120,8 +113,6 @@ Automated build and deployment process through Apache Maven(To build/package the
 Source tree application
 
 hp ezmeral  - new platform
-
-lambda expression
 
 linux i3 window manager
 
@@ -146,68 +137,17 @@ https://www.freecodecamp.org/news/google-cloud-platform-from-zero-to-hero/
 
 How do handle the deployment downtime when we are in need to change the DNS, maybe for the APIs or Web sockets?
 
-How can you set up a DevOps environment using the Azure instance?
-
 What is the major role of DevOps and its elements in the environment?
 
 scaled the application from X users to Y over a 3-year period
 
 https://wonderproxy.com/blog
 
-https://www.awseducate.com/student/s/
 https://intellipaat.com/blog/tutorial/devops-tutorial/  vid
 
-minikube
-kubectl
-k8s cli
-after this you can create cluster, pod, nodes
-deployment abstraction over pods
-container image - create
-nginx deployment
-configuration file - metadata, specification, status
-service
-namespace
-ingrees
-helm
-volume
-
-Docker, Jenkins, Chef, Puppet, Kubernetes, IAC, Ansible
+IAC
 
   A company hosts everything in-house in an on-premise environment, while in a cloud environment, a third-party provider hosts all that for you. This allows companies to pay on an as-needed basis and effectively scale up or down depending on overall usage, user requirements, and the growth of the company.			
 An on-premises data center is a group of servers you privately own and control.			
 On-premises need a lot of space, power, and maintenance to store, while on the other hand, cloud solutions are offered by the provider.			
  On-premise software is installed on the computers and servers of the organization locally.	
-
-
-# DevOps All The Things 
-
-## Helm
-
-### Available Helm Charts
-
-- **Uptime Kuma**
-    - Uptime Kuma is an awesome uptime monitoring tool, with builtin alert manager.
-
-### How to Deploy Helm?
-
-*I assume you have already cloned repository*
-
-Don't forget to change values in values.yaml.
-In case of **Uptime Kuma**, we need to change `host`.
-
-Use the command line below, and set $YOURDOMAIN variable or simply substitute it with your domain.
-
-```bash
-sed -i "s/example.org/$YOURDOMAIN/g" helm/uptime-kuma/values.yaml
-```
-
-Or you can simply use your favorite text editor - **Vim**.
-
-Now, you can install it, with this simple command:
-
-```bash
-helm install uptime-kuma helm/uptime-kuma
-```
-
-
-
