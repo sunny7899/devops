@@ -80,7 +80,7 @@ account -> budget ->
 Domain 1: Cloud Concepts
 Domain 2: Security
 Domain 3: Technology
-Domain 4: Billing and Pricing
+Domain 4: Billing and Pricing - check aws pricing calculator
 
 Edge Locations
 Get Data Fast or Upload Data Fast to AWS
