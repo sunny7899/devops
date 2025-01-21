@@ -3,7 +3,7 @@ how you can deploy your project easily. how you can create a production-ready bu
 Following are the platforms in which you can deploy your code.
 
 now.sh/Vercel
-you can also use this website for backend and front-end deployment.
+you can also use this website for backend and front-end deployment. here you can deploy both private and public git repos.
 
 Github pages-
 You can easily deploy your git frontend repository using Github pages.
@@ -34,6 +34,8 @@ https://github.com/organizations/organizationname/settings/installations/id
 https://app.netlify.com/drop
 
 netlify fix NPM_FLAGS   --legacy-peer-deps  CI  FALSE  
+
+In free version you cannot deploy private git repos.
 
 surge.sh-    Static web publishing for Front-End Developers
  https://surge.sh/
