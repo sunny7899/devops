@@ -37,8 +37,8 @@ netlify fix NPM_FLAGS   --legacy-peer-deps  CI  FALSE  
 
 In free version you cannot deploy private git repos.
 
-surge.sh-    Static web publishing for Front-End Developers
- https://surge.sh/
+Static web publishing for Front-End Developers
+https://surge.sh/
 
 siteground-
 
@@ -140,3 +140,23 @@ https://create-react-app.dev/docs/deployment/
 https://cloud.google.com/appengine/
 
 Heroku or AWS Elastic Beanstalk or Microsoft Azure or GCP or any free alternative or any other Deploy way.
+
+gh-pages npm react app deploy:
+Deploying a React Application
+
+>npm install gh-pages --save-dev
+
+add this in package.json script "deploy": "gh-pages -d build" 
+
+create build manually 
+
+run below command
+
+add this in package.json- "homepage": "http://gitname.github.io/react-gh-pages"
+
+ >npm run deploy
+
+ commit your code after that
+This is applicable to public git repos only.
+
+Another platfor render.com
