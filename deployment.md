@@ -37,6 +37,9 @@ netlify fix NPM_FLAGS   --legacy-peer-deps  CI  FALSE  
 
 In free version you cannot deploy private git repos.
 
+Deploy failed due to an error in @netlify/angular-runtime plugin angular app
+remove selection of angilar app
+
 Static web publishing for Front-End Developers
 https://surge.sh/
 
@@ -159,4 +162,5 @@ add this in package.json- "homepage": "http://gitname.github.io/react-gh-pages"
  commit your code after that
 This is applicable to public git repos only.
 
-Another platfor render.com
+Another platform render.com:
+To deploy nodejs app do New-> web service
