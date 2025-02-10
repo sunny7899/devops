@@ -553,3 +553,5 @@ Configure the AWS networking services to support the cluster
 Upgrade your Kubernetes, Amazon EKS, and third party tool
 
 https://aws.amazon.com/products
+
+My setup includes AWS CloudFront and S3 for the frontend, and DynamoDB, Cognito, Lambda, and CloudFront for the backend.
