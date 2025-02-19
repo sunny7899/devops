@@ -104,6 +104,9 @@ PuTTY is an SSH and telnet client.
 
 mobaxterm is like putty
 
+check port is open or not ->  
+https://stackoverflow.com/questions/25031090/telnet-is-not-recognized-as-internal-or-external-command-even-after-activation 
+telnet localhost PORTNUMBER
 two types of accounts on google - user and service accounts:
 
 It accepts requests from registered applications. request from anonymous apps is rejected.
