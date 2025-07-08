@@ -129,6 +129,8 @@ VMware
 manage servers use cloud-based platforms that provide the infrastructure, like Heroku or Amazon Web Services.
 
 https://railway.app/
+Very simple UI
+Free tier includes deployments + PostgreSQL
 
 cashoverflow.in/best-web-hosting-siteground-review-comparison-bluehost-vs-hostgator/
 
@@ -164,3 +166,10 @@ This is applicable to public git repos only.
 
 Another platform render.com:
 To deploy nodejs app do New-> web service
+
+Fly.io
+Good for apps with backend & edge deployment
+
+Requires CLI setup & Docker
+
+Use fly launch to deploy a private repo after linking GitHub
