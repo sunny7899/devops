@@ -80,6 +80,9 @@ cloud bees, Travis, Drone, Bamboo, GitHub actions, Ionic app flow, Microsoft app
 
 buddy build- continuous integration and delivery software for Git developers that can be used to build, test and deploy
 
+https://buddy.works/ DevOps & Platform Engineering Suite
+
+
 Mobile DevOps automation, and mobile CI/CD
 Mobile continuous integration and delivery — Automate unit test and deployment process
 https://www.bitrise.io/
