@@ -34,6 +34,9 @@ https://github.com/organizations/organizationname/settings/installations/id
 https://app.netlify.com/drop
 
 netlify fix NPM_FLAGS   --legacy-peer-deps  CI  FALSE  
+ANGULAR_PROJECT [project name] build path dist/[your-project-name]/browser
+Log into your Netlify Dashboard.Navigate to Site configuration > Build & deploy > Build settings.Look for the Runtime section.Click Remove or clear the selection to leave the dropdown blank.
+npm install --legacy-peer-deps vercel
 
 In free version you cannot deploy private git repos.
 
